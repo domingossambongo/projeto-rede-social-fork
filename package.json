@@ -1,5 +1,5 @@
 {
-  "name": "instacefet",
+  "name": "projeto-rede-social",
   "version": "1.0.0",
   "description": "Projeto PHP",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/eldercosta/instacefet.git"
+    "url": "git+https://gitlab.com/JessikaFreire/projeto-rede-social.git"
   },
-  "author": "COSTA,ELDER ; LORENZO, JOÃO P.",
+  "author": "FREIRE,JESSIKA",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/eldercosta/instacefet/issues"
+    "url": "https://gitlab.com/JessikaFreire/projeto-rede-social/issues"
   },
-  "homepage": "https://gitlab.com/eldercosta/instacefet#README",
+  "homepage": "https://gitlab.com/JessikaFreire/projeto-rede-social#README",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
