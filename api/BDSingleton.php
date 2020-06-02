@@ -55,4 +55,14 @@
         return $suc;
     }
 
+    function bd_adicionar_post( $con, $idUser, $postagem){
+        $date = date('Y-m-d H:i:s');
+        
+        $sql = 'INSERT INTO postagem (id_user,conteudo,data) VALUES ("'.$idUser.'","'.$postagem.'","'.$date.'")';
+        
+        $suc = $con->exec( $sql );
+        
+        return $suc;
+    }
+
 ?>
