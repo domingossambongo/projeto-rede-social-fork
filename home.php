@@ -39,7 +39,7 @@
     
     <ul class="navbar-nav ">
       <li class="nav-item active">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="home.php">
           <i class="fa fa-home"></i>
           Página Inicial
           <span class="sr-only">(current)</span>
@@ -75,6 +75,30 @@
   </div>
 </nav>
 
+
+<div class="wrapper">
+<div class="set-1">
+  
+  <div class="card-set-1" id="user">
+    <span class="card"><i class="fa fa-users"></i></span>
+    <p>Amigos</p>
+    <button class="cardb" >Vizualizar Posts</button>
+  </div>
+  
+  <div class="card-set-1" id="msg">
+    <span class="card"><i class="fa fa-envelope"></i></span>
+    <p>Mensagens</p>
+    <button class="cardb">Buscar</button>
+  </div>
+  
+  <div class="card-set-1" id="post">
+    <span class="card"><i class="fa fa-sticky-note"></i></span>
+    <p>Postagens</p>
+    <button class="cardb" onclick="location.href='post.php'">Publicar</button>
+  </div>
+
+</div>
+</div>
 
 </body>
 </html>
